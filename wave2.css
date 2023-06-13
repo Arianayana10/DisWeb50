@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Pangolin', cursive;
+    font-family: 'Rubik Puddles', cursive;
+    height: 150vh;
+    
+}
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    background: #B5D6CF;
+    padding-bottom: 60px;
+    background-image: linear-gradient(to right, rgba(145, 234, 228, 0.53), rgba(134, 168, 231, 0.51), rgba(127, 127, 213, 0.5)), url(quimica.jpg); 
+    
+}
+.contenedor-textos{
+    width: 50%;
+    color: #D18574;
+    
+}
+h1{
+    font-weight: 200;
+    font-size: 85px;
+    margin: 40px;
+    text-shadow: 1px 3px 3px #000;
+    
+}
+img{
+    width: 35%;
+    display: inline-block;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    
+}
